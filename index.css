@@ -1,0 +1,116 @@
+/* Global styles */
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #343a40; /* Dark background color */
+  color: #ffffff; /* Light text color for better readability */
+}
+
+/* Header styles */
+header {
+  margin-bottom: 40px;
+}
+
+.navbar {
+  background: transparent; /* Transparent background for the navbar */
+  box-shadow: none; /* Remove the box shadow for a cleaner look */
+  padding: 0.5rem 0; /* Adjusted padding for a slimmer header */
+}
+
+.container {
+  width: 100%; /* Remove the default container width */
+}
+
+.navbar-brand {
+  font-size: 1.5rem; /* Adjusted font size for a smaller header */
+  font-weight: bold; /* Increased font weight for the brand text */
+  font-style: italic; /* Set font style to italic */
+  color: #ffffff;
+}
+
+.navbar-toggler-icon {
+  background-color: #ffffff;
+}
+
+.navbar-nav {
+  background: linear-gradient(to right, #007bff, #0056b3); /* Apply the same gradient as the jumbotron */
+  -webkit-background-clip: text;
+  color: transparent; /* Make the text transparent to reveal the gradient background */
+  font-size: 1.2rem; /* Adjusted font size for better visibility */
+  font-style: normal; /* Set font style to normal for better readability */
+}
+
+/* Jumbotron styles */
+#home {
+  padding: 5rem 0;
+  background: linear-gradient(to right, #007bff, #0056b3);
+  color: #ffffff;
+  text-align: center;
+}
+
+.jumbotron {
+  background-color: transparent; /* Set the jumbotron background to transparent */
+  border-radius: 15px;
+  padding: 30px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.jumbotron h1 {
+  font-size: 3rem;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.jumbotron p {
+  font-size: 1.5rem;
+}
+
+/* Featured Products section styles */
+#products {
+  margin-bottom: 60px;
+}
+
+.card {
+  border: none;
+  background-color: #343a40; /* Set a dark background color for cards */
+  color: #ffffff; /* Set light text color for better readability in cards */
+  transition: transform 0.2s, box-shadow 0.2s;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2);
+}
+
+.card-title {
+  font-size: 1.5rem;
+  margin-bottom: 0.5rem;
+  color: #ffffff;
+}
+
+.card-text {
+  color: #ffffff; /* Set light text color for better readability in cards */
+}
+
+/* Footer styles */
+footer {
+  color: #ffffff;
+  background-color: #343a40; /* Set a dark background color for the footer */
+  padding: 30px 0;
+}
+
+/* Additional styles for the contact section */
+.list-unstyled li {
+  margin-bottom: 10px;
+}
+
+/* Responsive styles */
+@media (max-width: 767.98px) {
+  .navbar-brand {
+    font-size: 1.25rem; /* Adjusted font size for a smaller header in mobile view */
+  }
+
+  .navbar-nav {
+    font-size: 0.9rem; /* Adjusted font size for smaller navigation items in mobile view */
+  }
+}
